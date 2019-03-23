@@ -1,0 +1,21 @@
+{
+  "name": "storm-seek-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "keywords": [],
+  "author": "Andrey Andreev",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
